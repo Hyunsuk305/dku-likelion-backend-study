@@ -67,16 +67,31 @@ week06/
   "author": "홍길동"
 }
 ```
+<img width="892" height="770" alt="image" src="https://github.com/user-attachments/assets/3ef59241-4557-45f3-bcad-92cb243f6d60" />
 
 **도서 수정 (PUT `/books/1`)**
 ```json
 // Request
 {
-  "bookName": "책",
+  "bookName": "책2",
   "price": 23000,
   "author": "홍길동"
 }
 ```
+<img width="876" height="741" alt="image" src="https://github.com/user-attachments/assets/977f7b56-fa47-4a24-ab72-5645ea75a2a5" />
+
+**도서 삭제 (DELETE `/books/1`)**
+```json
+// Request
+{
+  "bookName": "책2",
+  "price": 23000,
+  "author": "홍길동"
+}
+```
+
+<img width="885" height="708" alt="image" src="https://github.com/user-attachments/assets/a457229d-46c5-48b8-82ea-c5b6edb31b41" />
+
 
 **존재하지 않는 도서 조회 시**
 ```
