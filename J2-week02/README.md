@@ -4,3 +4,4 @@
 - @Controller 붙이면 new HomeController() 만들어 객체 생성
 - 클라이언트와 서버가 소통하려면 둘 다 이해 가능한 String 형식으로 통신
 - url에서 ?로 정보 표현, &로 구분함 
+- Jackson은 액션 메서드가 String 이외의 형태의 데이터를 리턴하면 String 형태(그 중에서도 Json)으로 변환해줌
