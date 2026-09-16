@@ -1,0 +1,23 @@
+package com.ll.demo01;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Configuration
+public class ComponentConfig {
+    @Bean
+    public ComponentC componentC() {
+        return new ComponentC();
+    }
+
+    @Bean
+    public ComponentD componentD() {
+        return new ComponentD();
+    }
+
+    @Bean
+    public ComponentE componentE() {
+        return new ComponentE();
+    }
+}
