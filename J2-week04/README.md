@@ -1,0 +1,16 @@
+**데이터베이스**
+- DBMS = DataBase Management System
+- DBMS는 여러 개의 DB를 관리하는 시스템
+- DB는 테이블들을 묶어줌
+- 데이터베이스는 테이블들로 구성되어 있고, 테이블은 데이터(row, 행)들로 구성되어 있음
+- desc(ribe)로 테이블 구조 확인
+- select * 로 전체 조회
+- where 절에 null 들어가면 is/is not null
+- 한 줄만 수정하려면 limit
+- delete 지정 안해주면 전부 사라짐
+- now()는 현재 시간 return 해주는 함수
+- 데이터를 입력할 때 누락한 값에는 null이 들어감
+- unsigned는 음수 금지
+- after하면 뒤로 감
+- as로 칼럼명 보기 편하게 변경 가능
+- 테이블도 as 사용 가능
