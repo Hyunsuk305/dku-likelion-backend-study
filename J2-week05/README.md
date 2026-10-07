@@ -11,6 +11,8 @@ Spring Data JPA의 처리 구조: Spring Data JPA -> JPA -> 하이버네이트 -
 @Id는 primary key다
 spring.jpa.hibernate.ddl-auto=update 설정하면 DB 테이블에 자동으로 세팅
 코드 삭제해도 만들어진 column은 삭제되지 않음
+
+
 <img width="793" height="947" alt="image" src="https://github.com/user-attachments/assets/56a53af6-9d9f-447f-a197-375a36912ba6" />
 
 ```bash
