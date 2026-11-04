@@ -7,7 +7,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/likelion_dev
     username: postgres
-    password: lldj123414
+    password: 
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
