@@ -18,4 +18,4 @@ OSIV를 끄면 DB 커넥션이 유지되는 시간이 줄어서 전체 성능이
 Request Scope Bean
 HttpServletRequest 객체에 접근이 가능
 
-단점: 호출마다 DB 조회발생 -> 메모리 캐싱으로 빠른 호춣
+단점: 호출마다 DB 조회발생 -> 메모리 캐싱으로 빠른 호출
